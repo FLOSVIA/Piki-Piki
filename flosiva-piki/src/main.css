@@ -1,0 +1,14 @@
+@charset "UFT-8";
+@font-face { 
+    font-family: 'DOSMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') 
+    format('woff');
+     font-weight: normal;
+      font-style: normal;
+     }
+
+body{
+    background: linear-gradient(#085078, #EAECC6) fixed; 
+    font-family: 'DOSMyungjo';
+    color:white;
+    }

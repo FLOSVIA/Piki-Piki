@@ -1,0 +1,47 @@
+@charset "UFT-8";
+@font-face { 
+    font-family: 'DOSMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_eight@1.0/DOSMyungjo.woff') 
+    format('woff');
+     font-weight: normal;
+      font-style: normal;
+     }
+     body{
+        background: linear-gradient(90deg, #0F0C29, #00B09B); 
+        text-align: center;
+        font-family: 'DOSMyungjo';
+        color: #ffffff;
+        }
+        
+
+h1{
+    font-size: 30px;
+    margin-top: 20px; 
+    margin-bottom: 130px;
+}
+
+#fo1{
+
+    width: 150px;
+    height: 17px;
+    margin-bottom: 20px;
+    margin-left: 685px;
+}
+#fo2{
+    width: 150px;
+    height: 17px;
+    margin-bottom: 6px;
+    margin-left: 685px;
+}
+
+p{
+    font-size: 30px;
+}
+
+input[type=text]:focus{
+    background-color: transparent;
+    outline: #00B09B;
+    color: white;
+    border: 2px solid white;
+
+}
